@@ -1,4 +1,16 @@
-h1 {
+#first-heading {
     color: red;
     font-size: 30px;
+}
+
+.second-heading {
+    color: green;
+}
+
+.ul1
+.li2 {
+    color: red;
+}
+.ul1.li1 {
+    color: green;
 }
