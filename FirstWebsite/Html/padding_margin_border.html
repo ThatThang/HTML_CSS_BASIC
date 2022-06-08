@@ -18,24 +18,27 @@
             display: flex; /*display: flex; Bố cục các khối một cách dễ dàng, linh hoạt hơn trước*/
             align-items: center;
             justify-content: center;/* align-items: center; và justify-content: center; giúp nội dung trong box hiển thị ở chính giữa*/
+            float: left;/*float: left; các phần tử chịu ảnh hưởng sẽ bị đẩy sang trái*/
 
         }
 
         .box1 {
             background-color: #333;
+            margin-bottom: 10px;
 
         }
 
         .box2 {
             background-color: orange;
+            border: 10px solid #333;
         }
 
         .box3 {
             background-color: firebrick;
-            padding-top: 10px;
-            padding-right: 10px;
-            padding-bottom: 10px;
-            padding-left: 10px;
+            padding: 10px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: gray;
 
         }
     </style>
