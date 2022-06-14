@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*box-sizing: border-box; không làm thay đổi giá trị ban đầu của phần tử khi thêm các thuộc tính padding và border*/
+}
+
+
+
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+
+    /* Cách 3 */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+
+    /* Cách 4 */
+    /* position: relative; */   
+}
+    
+
+/* Cách 1 */
+
+/* h3 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 30vh;
+
+} */
+
+/* Cách 2 */
+
+/* h3 {
+    font-size: 30px;
+    margin: auto;
+} */
+
+
+/* Cách 4 */
+
+/* h3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%)
+} */
+
