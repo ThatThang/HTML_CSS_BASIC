@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fallback Image</title>
+    <style>
+        body {
+            display: flex;
+        }
+
+        img {
+            width: 500px;
+            height: 500px;
+        }
+        
+
+        /* Trường hợp 2 */
+        .body {
+            margin-left: 50px;
+            width: 500px;
+            height: 500px;
+            background-image: url('https://hinhnen123.com/wp-content/uploads/2021/06/anh-meo-cute-nhat-9.jpg'),url('../Images/place_holder_img.png');
+            background-repeat: no-repeat;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Trường hợp 1 -->
+    <img onerror="this.src='../Images/place_holder_img.png'" src="https://smeta.vn/Data/image/2021/09/22/anh-meo-cute-de-thuong-dang-yeu-43.jpg" alt="Cat Image">
+
+    <!-- Trường hợp 2 -->
+    <div class="body">
+    </div>
+</body>
+</html>
